@@ -7,6 +7,7 @@
     "format:fix": "npx prettier -w .",
     "lint": "npm run format && npx eslint .",
     "lint:fix": "npx eslint --fix .",
+    "local:index": "tsx src/index.mts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
